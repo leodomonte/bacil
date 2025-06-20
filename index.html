@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Texto Centralizado</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #111;
+    }
+
+    h1 {
+      font-style: italic;
+      font-size: 14vw;
+      color: blueviolet;
+      text-align: center;
+      max-width: 90vw;
+      line-height: 1.2;
+      animation: coresPiscando 2s infinite;
+      text-decoration: underline;
+    }
+
+    @keyframes coresPiscando {
+      0%   { color: red; }
+      25%  { color: yellow; }
+      50%  { color: limegreen; }
+      75%  { color: cyan; }
+      100% { color: red; }
+    }
+  </style>
+</head>
+<body>
+  <h1>IMBACIL</h1>
+</body>
+</html>
